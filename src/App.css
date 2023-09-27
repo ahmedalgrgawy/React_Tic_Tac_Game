@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex: 33%;
+    flex-direction: row;
+}
+
+.square {
+    flex: 33%;
+    height: 100%;
+    border: 1px solid #222;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.square:active {
+    background-color: rgb(150, 192, 87);
+}
+
+.swal-modal {
+    font-family: sans-serif;
+}
+
+.swal-text {
+    text-align: center;
+}
