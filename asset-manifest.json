@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_Tic_Tac_Game/static/css/main.18f7b3d7.css",
+    "main.js": "/React_Tic_Tac_Game/static/js/main.7aeb61b1.js",
+    "index.html": "/React_Tic_Tac_Game/index.html",
+    "main.18f7b3d7.css.map": "/React_Tic_Tac_Game/static/css/main.18f7b3d7.css.map",
+    "main.7aeb61b1.js.map": "/React_Tic_Tac_Game/static/js/main.7aeb61b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18f7b3d7.css",
+    "static/js/main.7aeb61b1.js"
+  ]
+}
